@@ -1,0 +1,13 @@
+prefix=c:/Users/Maraiana Lourenço/Desktop/DataScience/GitHub/DataScience/.conda/Library
+exec_prefix=c:/Users/Maraiana Lourenço/Desktop/DataScience/GitHub/DataScience/.conda/Library
+libdir=c:/Users/Maraiana Lourenço/Desktop/DataScience/GitHub/DataScience/.conda/Library/lib
+sharedlibdir=c:/Users/Maraiana Lourenço/Desktop/DataScience/GitHub/DataScience/.conda/Library/lib
+includedir=c:/Users/Maraiana Lourenço/Desktop/DataScience/GitHub/DataScience/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
